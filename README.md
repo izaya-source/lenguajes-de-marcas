@@ -34,4 +34,34 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
   7.  XQuery
   8.  Base X
 
+ --- 
+ ## Lista de tareas pendientes y completas.
+ 
+[]  El repositorio se llama lenguajes-de-marcas.
+
+[]  Incluye una descripción clara.
+
+[]  Es público o la profesora está añadida como colaboradora.
+
+[]  La raíz contiene un README.md personalizado.
+
+[]  El documento incluye encabezados y párrafos.
+
+[]  Incluye una lista numerada y otra no numerada.
+
+[]  Incluye un enlace, una tabla y un bloque de código.
+
+[]  Incluye una lista de tareas.
+
+[]  Están incluidos todos los contenidos y recursos Markdown obligatorios.
+
+[]  Existen unidad-01/README.md y practicas/README.md.
+
+[]  Hay al menos tres commits con mensajes descriptivos.
+
+[]  El enlace entregado funciona correctamente.
+
+[]  No se ha publicado información sensible.
+
+
 Aprende más en [Markdown.es](https://markdown.es).
