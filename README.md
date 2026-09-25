@@ -21,7 +21,7 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
 
 ## Organización del repositorio:
 
-**_Tema1_**: Aquí estará todas las actividades correspondientes del tema1.
+_Tema1_: Aquí estará todas las actividades correspondientes del tema1.
   En la cual tendremos dos carpetas o apartados, **Práctica**: Donde aparecerán las prácticas y la carpeta **Ejercicios** donde tendremos todos los ejercicios correspondientes del tema. 
 
 ## Tecnologías y herramientas que vamos a utilizar durante el curso:
@@ -37,31 +37,33 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
  --- 
  ## Lista de tareas pendientes y completas.
  
-[]  El repositorio se llama lenguajes-de-marcas.
+[x]  El repositorio se llama lenguajes-de-marcas.
 
-[]  Incluye una descripción clara.
+[x]  Incluye una descripción clara.
 
-[]  Es público o la profesora está añadida como colaboradora.
+[x]  Es público o la profesora está añadida como colaboradora.
 
-[]  La raíz contiene un README.md personalizado.
+[x]  La raíz contiene un README.md personalizado.
 
-[]  El documento incluye encabezados y párrafos.
+[x]  El documento incluye encabezados y párrafos.
 
-[]  Incluye una lista numerada y otra no numerada.
+[x]  Incluye una lista numerada y otra no numerada.
 
-[]  Incluye un enlace, una tabla y un bloque de código.
+[x]  Incluye un enlace, una tabla y un bloque de código.
 
-[]  Incluye una lista de tareas.
+[x]  Incluye una lista de tareas.
 
-[]  Están incluidos todos los contenidos y recursos Markdown obligatorios.
+[x]  Están incluidos todos los contenidos y recursos Markdown obligatorios.
 
-[]  Existen unidad-01/README.md y practicas/README.md.
+[x]  Existen unidad-01/README.md y practicas/README.md.
 
-[]  Hay al menos tres commits con mensajes descriptivos.
+[x]  Hay al menos tres commits con mensajes descriptivos.
 
-[]  El enlace entregado funciona correctamente.
+[x]  El enlace entregado funciona correctamente.
 
-[]  No se ha publicado información sensible.
+[x]  No se ha publicado información sensible.
+
+\*\* No aparece animada porque es un documento .md \*\*
 
 ## Ejemplo de fragmento de código
 
@@ -72,5 +74,12 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
   <ciclo>DAW</ciclo>
 </estudiante>
 ```
+Esto lo puedes encontrar en `lenguajes-de-marcas`.
 
 Aprende más en [Markdown.es](https://markdown.es).
+
+Curso académico 2026/2027.
+
+> Si crees que las matemáticas son difíciles, prueba el diseño web --Pixelznet
+
+
