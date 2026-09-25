@@ -2,10 +2,9 @@
 Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
 
 ## Presentación personal académica:
-  - María Jesús Mosquera Galvín.
-  - 1º Desarrollo de aplicaciones web.
-  - *Intereses*: Los videojuegos y la realidad aumentada.
-  - Me gustaría aprender a hacer esto.
+| Nombre| Curso | Intereses | Me gustaría aprender|
+| --- | --- | --- | --- |
+|María Jesús Mosquera Galvín.|1º Desarrollo de aplicaciones web.|Los videojuegos y la realidad aumentada.|Me gustaría aprender a hacer esto.|
 
 ## Contenidos principales del módulo:
   - **UT1**. Introducción a los lenguajes de marcas.
@@ -26,15 +25,12 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
   En la cual tendremos dos carpetas o apartados, **Práctica**: Donde aparecerán las prácticas y la carpeta **Ejercicios** donde tendremos todos los ejercicios correspondientes del tema. 
 
 ## Tecnologías y herramientas que vamos a utilizar durante el curso:
-  - CSS
-  - HTML
-  - JavaScript
-  - XML
-  - Visual Studio Code
-  - XPath
-  - XQuery
-
-
-
-  - Base X
+  1.  CSS
+  2.  HTML
+  3.  JavaScript
+  4.  XML
+  5.  Visual Studio Code
+  6.  XPath
+  7.  XQuery
+  8.  Base X
 
