@@ -63,5 +63,14 @@ Repositorio de trabajo del módulo Lenguajes de Marcas de 1.º DAW.
 
 []  No se ha publicado información sensible.
 
+## Ejemplo de fragmento de código
+
+```XML
+<estudiante>
+  <nombre>Ada</nombre>
+  <edad>19</edad>
+  <ciclo>DAW</ciclo>
+</estudiante>
+```
 
 Aprende más en [Markdown.es](https://markdown.es).
