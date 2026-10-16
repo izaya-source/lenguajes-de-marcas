@@ -1,1 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo actualizado="2026-09-29">
+  <videojuego id="V001" disponible="true">
+    <titulo>Hollow Knight</titulo>
+    <desarrolladora>Team Cherry</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">14.99</precio>
+  </videojuego>
 
+  <videojuego id="V002" disponible="true">
+    <titulo>Celeste</titulo>
+    <desarrolladora>Extremely OK Games</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">19.99</precio>
+  </videojuego>
+</catalogo>
