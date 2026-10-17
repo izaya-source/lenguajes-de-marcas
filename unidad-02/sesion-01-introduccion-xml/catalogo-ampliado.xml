@@ -19,4 +19,114 @@
     </plataformas>
     <precio moneda="EUR">19.99</precio>
   </videojuego>
+
+<!-- Juegos añadidos por el alumno -->
+  <videojuego id="V003" disponible="true">
+    <titulo>Marvel's Wolwerine</titulo>
+    <desarrolladora>Insomniac Games</desarrolladora>
+    <plataformas>
+      <plataforma>PS5</plataforma>
+    </plataformas>
+    <precio moneda="EUR">79.99</precio>
+  </videojuego>
+
+  <videojuego id="V004" disponible="true">
+    <titulo>Gears of War: E-Day</titulo>
+    <desarrolladora>The Coalition</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+    </plataformas>
+    <precio moneda="EUR">62.27</precio>
+  </videojuego>
+
+  <videojuego id="V005" disponible="true">
+    <titulo>Onimusha: Way of the Sword</titulo>
+    <desarrolladora>Capcom</desarrolladora>
+    <plataformas>
+      <plataforma>PS5</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+      <plataforma>Nintendo Switch 2</plataforma>
+      <plataforma>PC</plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+  </videojuego>
+
+  <videojuego id="V006" disponible="true">
+    <titulo>The Blood of Dawnwalker</titulo>
+    <desarrolladora>Rebel Wolves</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+      <plataforma>PS5</plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+  </videojuego>
+
+
+  <videojuego id="V007" disponible="true">
+    <titulo>007 First Light</titulo>
+    <desarrolladora>IO Interactive</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+      <plataforma>PS5</plataforma>
+    </plataformas>
+    <precio moneda="EUR">69.99</precio>
+  </videojuego>
+
+  <videojuego id="V008" disponible="true">
+    <titulo>Resonance: A Plague Tale Legacy</titulo>
+    <desarrolladora>Asobo Studio</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+      <plataforma>PS5</plataforma>
+    </plataformas>
+    <precio moneda="EUR">59.99</precio>
+  </videojuego>
+
+
+  <videojuego id="V009" disponible="true">
+    <titulo>The Legend of Zelda: Ocarina of Time Remake</titulo>
+    <desarrolladora>Nintendo</desarrolladora>
+    <plataformas>
+      <plataforma>Nintendo Switch 2</plataforma>
+    </plataformas>
+    <precio moneda="EUR">59.99</precio>
+  </videojuego>
+
+
+  <videojuego id="V0010" disponible="true">
+    <titulo>Football Manager 27</titulo>
+    <desarrolladora>Sports Interactive</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Xbox Serie X|S</plataforma>
+      <plataforma>PS5</plataforma>
+      <plataforma>Mac</plataforma>
+      <plataforma>móviles vía Netflix</plataforma>
+    </plataformas>
+    <precio moneda="EUR">49.99</precio>
+  </videojuego> 
+
+   <videojuego id="V0011" disponible="true">
+    <titulo>Safety Firts!</titulo>
+    <desarrolladora>JCO</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Nintendo Switch</plataforma>
+    </plataformas>
+    <precio moneda="EUR">14.99</precio>
+  </videojuego>
+
+   <videojuego id="V0012" disponible="true">
+    <titulo>Warcraft III Reforged: Reino olvidado</titulo>
+    <desarrolladora>Blizzard Entertainment</desarrolladora>
+    <plataformas>
+      <plataforma>PC</plataforma>
+      <plataforma>Mac</plataforma>
+    </plataformas>
+    <precio moneda="EUR">29.99</precio>
+  </videojuego>
 </catalogo>

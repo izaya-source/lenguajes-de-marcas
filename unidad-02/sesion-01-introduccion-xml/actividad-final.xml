@@ -1,1 +1,63 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<marvel>
+  <heroe id="H01">
+    <alias>Spider-man</alias>
+    <nombre>Peter Parker</nombre>
+    <habilidades>
+        <habilidad>Poderes arácnidos</habilidad>
+    </habilidades>
+    <color_traje>
+        <principal>Rojo</principal>
+        <secundario>Azul</secundario>
+     </color_traje>
+    <año_nacimiento>1960</año_nacimiento>
+    <creador>Stan Lee</creador>
+  </heroe>
+  <heroe id="H02">
+    <alias>Iron Man</alias>
+    <nombre>Tony Stark</nombre>
+    <habilidades>
+        <habilidad>Armadura con vuelo   </habilidad>
+        <habilidad>Armas de energía</habilidad>
+        <habilidad>Sistemas defensivos</habilidad>
+    </habilidades>   
+    <color_traje>
+        <principal>Rojo</principal>
+        <secundario>Dorado</secundario>
+    </color_traje>
+    <año_nacimiento>1968</año_nacimiento>
+    <creador>Stan Lee</creador>
+  </heroe>
+  <heroe id="H03">
+    <alias>Hulk</alias>
+    <nombre>Bruce Banner</nombre>
+    <habilidades>
+        <habilidad>Fuerza &amp; resistencia extrema </habilidad>
+        <habilidad>Regeneración</habilidad>
+    </habilidades> 
+    <color_traje>
+        <principal>Morado</principal>
+    </color_traje>
+    <año_nacimiento>1962</año_nacimiento>
+    <creador>Stan Lee</creador>
+  </heroe>
+  <heroe id="H04">
+    <alias>Visión</alias>
+    <nombre>Victor Shade</nombre>
+    <habilidades>
+        <habilidad>Control de densidad</habilidad>
+        <habilidad>Capacidad de vuelo</habilidad>
+        <habilidad>Emisión de energía radiante</habilidad>
+        <habilidad>Uso de hologramas</habilidad>
+        <habilidad>Fuerza &amp; inteligencia sobrehumanas</habilidad>
+    </habilidades>
+    <color_traje>
+        <principal>Verde</principal>
+        <secundario>Amarillo</secundario>
+        <terciario>Rojo</terciario>
+    </color_traje>
+    <año_nacimiento>1968</año_nacimiento>
+    <creador>Stan Lee</creador>
+  </heroe>
+</marvel>
+<!--Hay más heroes pero he escogido 4-->
