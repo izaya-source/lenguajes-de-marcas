@@ -1,0 +1,15 @@
+<!ELEMENT marvel ( heroe, alias, nombre, habilidades, color_traje ,año_nacimiento, creador)>
+<!ELEMENT habilidades ( habilidad+)>
+<!ELEMENT color_traje ( principal, secundario, terciario)>
+<!ELEMENT heroe (#PCDATA)>
+<!ELEMENT alias (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT año_nacimiento (#PCDATA)>
+<!ELEMENT creador (#PCDATA)>
+<!ELEMENT habilidad (#PCDATA)>
+<!ELEMENT principal (#PCDATA)>
+<!ELEMENT secundario (#PCDATA)>
+<!ELEMENT terciario (#PCDATA)>
+
+<!ATTLIST heroe 
+    id ID #REQUIRED
