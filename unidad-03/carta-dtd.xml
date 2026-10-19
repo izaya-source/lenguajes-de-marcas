@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plato SYSTEM "carta-dtd.dtd">
+<plato>
+    <nombre>Queso asado</nombre>
+    <descripcion>Queso canario con mojo rojo y verde</descripcion>
+    <ingredientes>Queso, mojo, aceite</ingredientes>
+    <precio>8.50</precio>
+</plato>

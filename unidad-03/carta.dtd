@@ -1,0 +1,46 @@
+<!ELEMENT carta (informacion, seccion+)> <!-- Signo +: aparece una o mas veces -->
+<!ELEMENT recomendacion EMPTY>
+
+<!ELEMENT informacion (nombre, ubicacion)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT ubicacion (#PCDATA)>
+
+<!ELEMENT seccion (titulo, plato+)>
+<!ELEMENT titulo (#PCDATA)>
+
+<!ELEMENT plato (nombre, descripcion, precio, recomendacion*)>
+<!-- No ponemos la linea de nombre pq coge la de arriba -->
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ENTITY nombreLocal 'El platano canario'>
+
+<!-- CARDINALIDADES -->
+<!-- Sin simbolo: aparece exactamente una vez -->
+<!-- ?: aparece cero o una vez -->
+<!-- *: aparece cero o mas veces -->
+<!-- +: aparece una o mas veces -->
+
+<!ATTLIST carta 
+    nombre CDATA #REQUIRED>
+
+<!ATTLIST seccion
+    tipo (entrantes | principales | bebidas | postres ) #REQUIRED>
+
+<!ATTLIST plato
+    id ID #REQUIRED
+    alergenos CDATA #IMPLIED 
+    vegano (TRUE | FALSE) 'FALSE'
+    recomendado (TRUE | FALSE) 'FALSE'
+    frio (TRUE | FALSE) 'FALSE'>
+
+<!ATTLIST precio
+    moneda (EUR | PLZ | GBP) #FIXED 'EUR'> <!-- EUR: euro; PLZ: moneda de polonia; GBP: libra -->
+
+<!-- EXPLICACIONES -->
+<!-- PCDATA: define que es texto -->
+<!-- IMPLIED: el atributo es opcional -->
+<!-- FIXED: unicamente sirve ese valor (en el ejemplo no tiene sentido poner mas opciones cuando solo sirve una) -->
+
+<!ATTLIST recomendacion
+    plato IDREF #REQUIRED>
