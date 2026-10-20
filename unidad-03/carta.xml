@@ -33,4 +33,9 @@
             <precio moneda='EUR'>8.00</precio>
         </plato>
     </seccion>
+    <reserva id="R01" plato="P01" estado="confirmada">
+        <cliente>Zeneida</cliente>
+        <fecha>20-10-2026</fecha>
+        <personas>2</personas>
+    </reserva>
 </carta>

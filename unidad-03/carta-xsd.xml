@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<carta
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="carta.xsd"
+    nombre="El platano canario">
+    <informacion>
+        <nombre>El platano canario</nombre>
+        <ubicacion>Icod de los Vinos, Tenerife</ubicacion>
+    </informacion>
+    <seccion tipo='entrantes'>
+        <titulo>Para compartir</titulo>
+        <plato id='P01' alergenos='gluten' vegano='false'>
+            <nombre>Queso asado</nombre>
+            <descripcion>Queso canario con mojo rojo y verde</descripcion>
+            <precio moneda='EUR'>8.00</precio>
+            <recomendacion plato='P01' />
+        </plato>
+        <plato id='P02' alergenos='gluten' vegano='true'>
+            <nombre>Papas arrugadas</nombre>
+            <descripcion>Papas con mojo</descripcion>
+            <precio moneda='EUR'>4.00</precio>
+        </plato>
+    </seccion>
+    <!--Postres de la carta-->
+    <seccion tipo='postres'>
+        <titulo>Para disfrutar</titulo>
+        <plato id='P03' frio='true' recomendado="true">
+            <nombre>Brownie</nombre>
+            <descripcion>Brownie de chocolate con nueces</descripcion>
+            <precio moneda='EUR'>2.00</precio>
+        </plato>
+        <plato id='P04' frio='false'>
+            <nombre>Helado de vainilla</nombre>
+            <descripcion>Bola de helado de vainilla con sirope a elegir entre chocolate, caramelo o fresa</descripcion>
+            <precio moneda='EUR'>8.00</precio>
+        </plato>
+    </seccion>
+    <reserva id="R01" plato="P01" estado="confirmada">
+        <cliente>Zeneida</cliente>
+        <fecha>2026-10-20</fecha>
+        <personas>2</personas>
+    </reserva>
+</carta>

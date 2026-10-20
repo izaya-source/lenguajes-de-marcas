@@ -1,4 +1,4 @@
-<!ELEMENT carta (informacion, seccion+)> <!-- Signo +: aparece una o mas veces -->
+<!ELEMENT carta (informacion, seccion+, reserva*)> <!-- Signo +: aparece una o mas veces -->
 <!ELEMENT recomendacion EMPTY>
 
 <!ELEMENT informacion (nombre, ubicacion)>
@@ -12,6 +12,16 @@
 <!-- No ponemos la linea de nombre pq coge la de arriba -->
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT reserva (cliente, fecha, personas)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT personas (#PCDATA)>
+
+<!ATTLIST reserva
+    id ID #REQUIRED
+    plato IDREF #IMPLIED
+    estado ( pendiente | confirmada | cancelada) "pendiente">
 
 <!ENTITY nombreLocal 'El platano canario'>
 
