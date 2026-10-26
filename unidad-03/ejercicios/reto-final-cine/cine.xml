@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cine SYSTEM "cine.dtd">
+<cine id="C01">
+    <informacion>
+        <nombre>Cinépolis</nombre>
+        <direccion>Av.Donde Jesús perdió la chancla nº33</direccion>
+        <localidad>Puerto de la cruz</localidad>
+        <telefono>333 33 33 33</telefono>
+    </informacion>
+    <cartelera>
+        <pelicula id="P01">
+            <titulo>Titanic</titulo>
+            <director>Leonardo Dicaprio</director>
+            <duracion>120</duracion>
+            <estreno>24-12-2026</estreno>
+        </pelicula>
+    </cartelera>
+</cine>
