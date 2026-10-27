@@ -1,0 +1,65 @@
+<!ELEMENT cine (informacion, cartelera, salas+, sesiones*, reservas+)>
+
+<!ELEMENT informacion (nombre, direccion, localidad, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT cartelera (pelicula+)>
+<!ELEMENT pelicula (titulo, director, genero, duracion, estreno, sipnosis?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT estreno (#PCDATA)>
+<!ELEMENT sipnosis (#PCDATA)>
+
+<!ELEMENT salas (nombre, capacidad, butaca*)>
+<!ELEMENT capacidad (#PCDATA)>
+<!ELEMENT butaca (fila, asiento)>
+<!ELEMENT fila (#PCDATA)>
+<!ELEMENT asiento (#PCDATA)>
+
+<!ELEMENT sesiones (proyeccion, inicio, precio)>
+<!ELEMENT proyeccion (#PCDATA)>
+<!ELEMENT inicio (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!ELEMENT reservas (nombre, correo, fecha, entradas*)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT entradas (#PCDATA)>
+
+<!ATTLIST cine
+    id ID #REQUIRED>
+
+<!ATTLIST pelicula
+    id ID #REQUIRED
+    clasificacion ( TP | 7 | 12 | 16 | 18 ) #REQUIRED
+    idioma ( ES | VOSE | VOS) #REQUIRED
+    disponible ( true | false) "true">
+
+<!ATTLIST salas
+    id ID #REQUIRED>
+
+<!ATTLIST butaca
+    id ID #REQUIRED
+    tipo ( normal | adaptada | premium ) #REQUIRED>
+
+<!ATTLIST sesiones
+    id ID #REQUIRED
+    pelicula IDREF #REQUIRED
+    sala IDREF #REQUIRED>
+    
+<!ATTLIST precio
+    moneda (EUR | PLZ | GBP) #FIXED 'EUR'>
+
+<!ATTLIST reservas
+    id ID #REQUIRED
+    sesion IDREF #REQUIRED
+    estado ( pendiente | confirmada | cancelada ) "pendiente">
+    
+<!ATTLIST entradas
+    butaca IDREF #REQUIRED
+    tipo ( general | infantil | reducida ) #REQUIRED>

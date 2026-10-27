@@ -8,11 +8,115 @@
         <telefono>333 33 33 33</telefono>
     </informacion>
     <cartelera>
-        <pelicula id="P01">
+        <pelicula id="P01" clasificacion="TP" idioma= "VOSE" disponible="true">
             <titulo>Titanic</titulo>
             <director>Leonardo Dicaprio</director>
+            <genero>romance</genero>
             <duracion>120</duracion>
             <estreno>24-12-2026</estreno>
+            <sipnosis>barco,iceberg,hundimiento trágico</sipnosis>
+        </pelicula>
+        <pelicula id="P02" clasificacion= "TP" idioma="ES" disponible="true">
+            <titulo>beemovie</titulo>
+            <director>Oscar Wild</director>
+            <genero>comedia</genero>
+            <duracion>110</duracion>
+            <estreno>20-11-2026</estreno>
+            <sipnosis>una aventura de una abeja fuera de su colmena</sipnosis>
+        </pelicula>
+        <pelicula id="P03" clasificacion= "18" idioma="ES" disponible="true" >
+            <titulo>Alvin y las ardillas</titulo>
+            <director>Guillermo del toro</director>
+            <genero>terror</genero>
+            <duracion>200</duracion>
+            <estreno>11-11-2026</estreno>
+            <sipnosis>Alvin y las ardillas slasher</sipnosis>
+        </pelicula>
+        <pelicula id="P04" clasificacion= "12" idioma="ES" disponible="false">
+            <titulo>Padre no hay más que uno 5</titulo>
+            <director>Santiago Segura</director>
+            <genero>española</genero>
+            <duracion>145</duracion>
+            <estreno>02-11-2026</estreno>
         </pelicula>
     </cartelera>
+    <salas id="S01">
+        <nombre>Sala 1</nombre>
+        <capacidad>100</capacidad>
+        <butaca id="B01" tipo="adaptada">
+            <fila>A</fila>
+            <asiento>1</asiento>
+        </butaca>
+        <butaca id="B02" tipo="normal">
+            <fila>A</fila>
+            <asiento>2</asiento>
+        </butaca>
+        <butaca id="B03" tipo="normal">
+            <fila>A</fila>
+            <asiento>3</asiento>
+        </butaca>
+        <butaca id="B04" tipo="normal">
+            <fila>A</fila>
+            <asiento>4</asiento>
+        </butaca>
+    </salas>
+    <salas id="S02">
+        <nombre>Sala 2</nombre>
+        <capacidad>50</capacidad>
+        <butaca id="B05" tipo="adaptada">
+            <fila>A</fila>
+            <asiento>1</asiento>
+        </butaca>
+        <butaca id="B06" tipo="premium">
+            <fila>A</fila>
+            <asiento>2</asiento>
+        </butaca>
+        <butaca id="B07" tipo="premium">
+            <fila>A</fila>
+            <asiento>3</asiento>
+        </butaca>
+        <butaca id="B08" tipo="premium">
+            <fila>A</fila>
+            <asiento>4</asiento>
+        </butaca>
+    </salas>
+    <sesiones id="L01" pelicula="P01" sala="S01">
+        <proyeccion>24-12-2026</proyeccion>
+        <inicio>20:30</inicio>
+        <precio moneda="EUR">12</precio>
+    </sesiones>
+    <sesiones id="L02" pelicula="P01" sala="S01">
+        <proyeccion>02-01-2027</proyeccion>
+        <inicio>16:30</inicio>
+        <precio moneda="EUR">12</precio>
+    </sesiones>
+    <sesiones id="L03" pelicula="P02" sala="S01">
+        <proyeccion>20-11-2026</proyeccion>
+        <inicio>17:30</inicio>
+        <precio moneda="EUR">14</precio>
+    </sesiones>
+    <sesiones id="L04" pelicula="P03" sala="S02">
+        <proyeccion>11-11-2026</proyeccion>
+        <inicio>21:30</inicio>
+        <precio moneda="EUR">20</precio>
+    </sesiones>
+    <reservas id="R01" sesion="L01" estado="confirmada">
+        <nombre>Cintia Delgado García</nombre>
+        <correo>cintiadelgado@hotmail.com</correo>
+        <fecha>24-12-2026</fecha>
+        <entradas butaca="B01" tipo="general">1</entradas>
+    </reservas>
+    <reservas id="R02" sesion="L02" estado="pendiente">
+        <nombre>Vicente Ernesto Guitierrez de la Barca</nombre>
+        <correo>Vicentedelabarca@gmail.com</correo>
+        <fecha>02-01-2027</fecha>
+        <entradas butaca="B02" tipo="general">1</entradas>
+    </reservas>
+    <reservas id="R03" sesion="L03" estado="confirmada">
+        <nombre>Fernando García García</nombre>
+        <correo>FernandoGG@gmail.com</correo>
+        <fecha>20-11-2026</fecha>
+        <entradas butaca="B03" tipo="general">1</entradas>
+        <entradas butaca="B04" tipo="infantil">1</entradas>
+    </reservas>
 </cine>
