@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="cine">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name= "informacion">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="direccion" type="xs:string"/>
+                            <xs:element name="localidad" type="xs:string"/>
+                            <xs:element name="telefono" type="xs:positiveInteger"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name= "cartelera">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="pelicula" minOccurs="1" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                    <xs:element name="titulo" type="xs:string"/>
+                                    <xs:element name="director" type="xs:string"/>
+                                    <xs:element name="genero" type="xs:string"/>
+                                    <xs:element name="duracion" type="xs:positiveInteger"/>
+                                    <xs:element name="estreno" type="xs:date"/>
+                                    <xs:element name="sipnosis" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                                </xs:sequence>
+                                <xs:attribute name="id" type="xs:ID" use="required"/>
+                                <xs:attribute name="clasificacion" type="xs:string" use="required"/>
+                                <xs:attribute name="idioma" type="xs:string" default="ES"/>
+                                <xs:attribute name="disponible" type="xs:boolean" default="true"/>
+                            </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="salas" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="capacidad" type="xs:positiveInteger"/>
+                        <xs:element name="butaca" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="fila" type="xs:string"/>
+                                    <xs:element name="asiento" type="xs:positiveInteger"/>
+                                </xs:sequence>
+                                <xs:attribute name="id" type="xs:ID" use="required"/>
+                                <xs:attribute name="tipo" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="sesiones" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="proyeccion" type="xs:date"/>
+                            <xs:element name="inicio" type="xs:time"/>
+                            <xs:element name="precio">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:decimal">
+                                            <xs:attribute name="moneda" type="xs:string" fixed="EUR"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="pelicula" type="xs:IDREF" use="required"/>
+                        <xs:attribute name="sala" type="xs:IDREF" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="reservas" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="correo" type="xs:string"/>
+                        <xs:element name="fecha" type="xs:date"/>
+                        <xs:element name="entradas" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:simpleContent>
+                                    <xs:extension base="xs:positiveInteger">
+                                        <xs:attribute name="butaca" type="xs:IDREF" use="required"/>
+                                        <xs:attribute name="tipo" type="xs:string"/>
+                                    </xs:extension>
+                                </xs:simpleContent>
+                            </xs:complexType>
+                        </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:ID" use="required"/>
+                        <xs:attribute name="sesion" type="xs:IDREF" use="required"/>
+                        <xs:attribute name="estado" type="xs:string" default="pendiente"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
