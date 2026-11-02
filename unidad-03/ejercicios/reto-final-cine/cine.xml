@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!--<!DOCTYPE cine SYSTEM "cine.dtd" Parte para DTD-->
+<!--<!DOCTYPE cine SYSTEM "cine.dtd">--> 
+
+<!--Parte para DTD-->
+
 
    
 <cine id="C01"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="cine.xsd">
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="cine.xsd"> 
     <informacion>
         <nombre>Cinépolis</nombre>
         <direccion>Av.Donde Jesús perdió la chancla nº33</direccion>
