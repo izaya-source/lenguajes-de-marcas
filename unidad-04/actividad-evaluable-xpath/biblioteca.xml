@@ -23,7 +23,6 @@
     </formatos>
     <precio moneda="EUR">12.90</precio>
     <valoracion>4.8</valoracion>
-    <saga>No</saga>
   </libro>
   <libro id="L002" disponible="true">
     <titulo>Cien años de soledad</titulo>
@@ -46,7 +45,6 @@
     </formatos>
     <precio moneda="EUR">21.90</precio>
     <valoracion>4.7</valoracion>
-    <saga>No</saga>
   </libro>
   <libro id="L003" disponible="true">
     <titulo>Dune</titulo>
@@ -91,7 +89,6 @@
     </formatos>
     <precio moneda="EUR">23.90</precio>
     <valoracion>4.7</valoracion>
-    <saga>No</saga>
   </libro>
   <libro id="L005" disponible="false">
     <titulo>El hobbit</titulo>
@@ -159,7 +156,6 @@
     </formatos>
     <precio moneda="EUR">21.90</precio>
     <valoracion>4.4</valoracion>
-    <saga>no</saga>
   </libro>
   <libro id="L008" disponible="true">
     <titulo>Tan poca vida</titulo>
@@ -182,7 +178,6 @@
     </formatos>
     <precio moneda="EUR">25.90</precio>
     <valoracion>4.6</valoracion>
-    <saga>no</saga>
   </libro>
   <libro id="L009" disponible="false">
     <titulo>El peligro de estar cuerda</titulo>
@@ -205,7 +200,6 @@
     </formatos>
     <precio moneda="EUR">20.90</precio>
     <valoracion>4.5</valoracion>
-    <saga>no</saga>
   </libro>
   <libro id="L010" disponible="true">
     <titulo>El club de los crímenes de los jueves</titulo>
