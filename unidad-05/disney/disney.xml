@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera cine="Multicines Puerto" ciudad="Puerto de la Cruz">
+
+    <categoria id="C-01" nombre="Ciencia Ficción">
+        <pelicula id="P-01" anio="2021">
+            <titulo>Dune</titulo>
+            <duracion unidad="min">155</duracion>
+            <sinopsis>Un joven viaja al planeta desértico más peligroso del universo para asegurar el futuro de su familia y su pueblo.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Timothée Chalamet</interprete>
+                <interprete rol="secundario">Rebecca Ferguson</interprete>
+            </reparto>
+            <cartel>img/Dune.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-02" anio="2014">
+            <titulo>Interstellar</titulo>
+            <duracion unidad="min">169</duracion>
+            <sinopsis>Un grupo de astronautas atraviesa un agujero de gusano en busca de un nuevo hogar habitable para la humanidad.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Matthew McConaughey</interprete>
+                <interprete rol="protagonista">Anne Hathaway</interprete>
+            </reparto>
+            <cartel>img/interestelar.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-03" anio="2016">
+            <titulo>La llegada</titulo>
+            <duracion unidad="min">116</duracion>
+            <sinopsis>Tras aterrizar doce naves extraterrestres en el planeta, una mujer es reclutada para descifrar su idioma y averiguar sus intenciones.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Amy Adams</interprete>
+                <interprete rol="secundario">Jeremy Renner</interprete>
+            </reparto>
+            <cartel>img/la_llegada.jpeg</cartel>
+        </pelicula>
+    </categoria>
+
+    <categoria id="C-02" nombre="Animación">
+        <pelicula id="P-04" anio="2018">
+            <titulo>Spider-Man: Un nuevo universo</titulo>
+            <duracion unidad="min">117</duracion>
+            <sinopsis>Un adolescente adquiere poderes arácnidos y debe unir fuerzas con versiones alternativas del héroe procedentes de otras dimensiones para salvar su realidad.</sinopsis>
+            <reparto>
+                <interprete tipo="voz">Shameik Moore</interprete>
+                <interprete tipo="voz">Jake Johnson</interprete>
+            </reparto>
+            <cartel>img/spiderman.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-05" anio="2001">
+            <titulo>El viaje de Chihiro</titulo>
+            <duracion unidad="min">125</duracion>
+            <sinopsis>Durante una mudanza, una niña queda atrapada en un mundo mágico gobernado por espíritus y brujas, donde deberá trabajar para rescatar a sus padres.</sinopsis>
+            <reparto>
+                <interprete tipo="voz">Rumi Hiiragi</interprete>
+                <interprete tipo="voz">Miyu Irino</interprete>
+            </reparto>
+            <cartel>img/el_viaje_chihiro.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-06" anio="2017">
+            <titulo>Coco</titulo>
+            <duracion unidad="min">105</duracion>
+            <sinopsis>Un niño viaja accidentalmente a la Tierra de los Muertos, donde busca la ayuda de su tatarabuelo músico para levantar la prohibición artística en su familia.</sinopsis>
+            <reparto>
+                <interprete tipo="voz">Anthony Gonzalez</interprete>
+                <interprete tipo="voz">Gael García Bernal</interprete>
+            </reparto>
+            <cartel>img/coco.jpeg</cartel>
+        </pelicula>
+    </categoria>
+
+    <categoria id="C-03" nombre="Thriller y Suspense">
+        <pelicula id="P-07" anio="2019">
+            <titulo>Parásitos</titulo>
+            <duracion unidad="min">132</duracion>
+            <sinopsis>Una familia sin recursos logran infiltrarse poco a poco como empleados domésticos en la mansión de un matrimonio adinerado, desatando un conflicto inesperado.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Song Kang-ho</interprete>
+                <interprete rol="secundario">Choi Woo-shik</interprete>
+            </reparto>
+            <cartel>img/parásitos.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-08" anio="1995">
+            <titulo>Seven</titulo>
+            <duracion unidad="min">127</duracion>
+            <sinopsis>Un detective y su compañero siguen el rastro de un metódico asesino en serie que basa sus crímenes en los siete pecados capitales.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Brad Pitt</interprete>
+                <interprete rol="protagonista">Morgan Freeman</interprete>
+            </reparto>
+            <cartel>img/seven.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-09" anio="2010">
+            <titulo>Shutter Island</titulo>
+            <duracion unidad="min">138</duracion>
+            <sinopsis>Dos agentes judiciales acuden a un hospital psiquiátrico ubicado en una isla remota para investigar la misteriosa desaparición de una paciente.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Leonardo DiCaprio</interprete>
+                <interprete rol="secundario">Mark Ruffalo</interprete>
+            </reparto>
+            <cartel>img/shutter_island.jpeg</cartel>
+        </pelicula>
+    </categoria>
+
+    <categoria id="C-04" nombre="Drama">
+        <pelicula id="P-10" anio="2023">
+            <titulo>Oppenheimer</titulo>
+            <duracion unidad="min">180</duracion>
+            <sinopsis>Biografía sobre Oppenheimer y su papel determinante en el Proyecto Manhattan para el desarrollo de las primeras armas nucleares.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Cillian Murphy</interprete>
+                <interprete rol="secundario">Emily Blunt</interprete>
+            </reparto>
+            <cartel>img/oppenheimer.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-11" anio="2014">
+            <titulo>Whiplash</titulo>
+            <duracion unidad="min">106</duracion>
+            <sinopsis>Un joven ingresa en un prestigioso conservatorio donde queda bajo la tutela de un exigente director de orquesta con métodos abusivos.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Miles Teller</interprete>
+                <interprete rol="protagonista">J.K. Simmons</interprete>
+            </reparto>
+            <cartel>img/Whiplash.jpeg</cartel>
+        </pelicula>
+
+        <pelicula id="P-12" anio="1994">
+            <titulo>Cadena perpetua</titulo>
+            <duracion unidad="min">142</duracion>
+            <sinopsis>Un hombre forja una profunda amistad con otro recluso durante décadas mientras planea su supervivencia en prisión.</sinopsis>
+            <reparto>
+                <interprete rol="protagonista">Tim Robbins</interprete>
+                <interprete rol="protagonista">Morgan Freeman</interprete>
+            </reparto>
+            <cartel>img/cadena_perpetua.jpeg</cartel>
+        </pelicula>
+    </categoria>
+
+</cartelera>
